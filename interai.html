@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Preparation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Interview Preparation</h1>
+    <label for="interviewType">Enter the job title:</label>
+    <input type="text" id="interviewType" placeholder="Job title...">
+
+    <button id="startButton">Start Interview</button>
+    <div id="questionArea" style="display: none;">
+        <p id="question"></p>
+        <textarea id="answer" rows="4" cols="50" placeholder="Your answer..."></textarea>
+        <button id="nextButton">Next Question</button>
+    </div>
+    <div id="resultArea" style="display: none;">
+        <h2>Your score: <span id="score"></span>/10</h2>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app9.js"></script>
+</body>
+</html>

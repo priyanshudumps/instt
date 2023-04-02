@@ -1,0 +1,16 @@
+.options-scrollable {
+    max-height: 50vh; /* Adjust this value based on how much vertical space you want the options to take */
+    overflow-y: auto;
+    padding: 1rem;
+  }
+  
+  /* Add this to style the scrollbar */
+  .options-scrollable::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .options-scrollable::-webkit-scrollbar-thumb {
+    background-color: #a9a9a9;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,1 @@
+An engaging web app designed to hone your tech interview skills by simulating real-life interview converstions with job-specific questions

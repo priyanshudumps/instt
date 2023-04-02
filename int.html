@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Preparation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><INTER-AI>INTER-AI</INTER-AI></h1>
+    <label for="interviewType">Choose the job title:</label>
+    <div class="select-container">
+        <select id="interviewType">
+            <option value="Data Scientist">Data Scientist</option>
+            <option value="Software Developer">Software Developer</option>
+            <option value="Information Security Analyst">Information Security Analyst</option>
+            <option value="Computer Systems Analyst">Computer Systems Analyst</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Sales Engineer">Sales Engineer</option>
+            <option value="Information Technology Manager">Information Technology Manager</option>
+            <option value="Computer Research Scientist">Computer Research Scientist</option>
+            <option value="Network and Systems Administrator">Network and Systems Administrator</option>
+            <option value="Computer Support Specialists">Computer Support Specialists</option>
+        </select>
+    </div>
+    <button id="startButton">Start </button>
+    <div id="questionArea" style="display: none;">
+        <p id="question"></p>
+        <textarea id="answer" rows="4" cols="50" placeholder="Your answer..."></textarea>
+        <button id="nextButton">Next Question</button>
+    </div>
+    <div id="resultArea" style="display: none;">
+        <h2>Your score: <span id="score"></span>/10</h2>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="app6.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Preparation - Job Title</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Interview Preparation</h1>
+    <div class="c-formContainer">
+    <form id="interviewForm" class="c-form">
+        <label for="interviewType">Enter the job title:</label>
+        <input type="text" class="c-form__input" id="interviewType" placeholder="Job title..." pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+        
+        <label class="c-form__buttonLabel" for="checkbox">
+            <button class="c-form__button" type="submit" id="startButton">Start Interview</button>
+          </label>
+          <label class="c-form__toggle" for="checkbox" data-title="Notify me"></label>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="job-title.js"></script>
+</div>
+</body>
+</html>
